@@ -1,0 +1,26 @@
+.card-body {
+    background-color:#e0d5d59e;
+      border: 1px solid;
+      padding: 70px;
+      box-shadow: 2px 2px;
+      font-size: 25px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding:20px;
+  }
+  
+  h1{
+      font-size: 70px;
+      font-family: 'Spicy Rice', cursive;
+      text-align: center;
+      border-bottom: 2px solid black;
+      padding: 10px;
+  }
+  
+  .jumbotron{
+      border-radius: 30px;
+      background-color:rgb(148, 148, 97);
+  }
+  button{
+      text-align: center;
+  }
+  
