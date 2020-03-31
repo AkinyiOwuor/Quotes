@@ -1,15 +1,12 @@
 <div class="rachel">
     <p>
-        {{quote.description}}
+      {{quote.description}}
     </p>
-    
     <div class="icon">
-            <span><button (click)=likebuttonclick() class="btn btn-success">like<i class="fa fa-thumbs-up" aria-hidden="true"></i></button></span>
-           <span>{{numberoflikes}}</span>
-           <span><button (click)=dislikebuttonclick() class="btn btn-warning">dislike<i class="fa fa-thumbs-down" aria-hidden="true"></i></button></span>
-           <span>{{numberofdislikes}}</span><br><br>
-    <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete<i class="fa fa-trash" aria-hidden="true"></i> </button>
-    <br>
-    <br>
-    </div>
-    </div>
+        <button (click)=likebuttonclick() class="btn btn-success">like<i class="fa fa-thumbs-up" aria-hidden="true"></i></button>
+           {{numberoflikes}}
+        <button (click)=dislikebuttonclick() class="btn btn-warning">dislike<i class="fa fa-thumbs-down" aria-hidden="true"></i></button>
+           {{numberofdislikes}}<br><br>
+        <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete<i class="fa fa-trash" aria-hidden="true"></i> </button>
+    </div><br>
+</div>
