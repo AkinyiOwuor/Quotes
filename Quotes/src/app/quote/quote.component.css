@@ -1,5 +1,5 @@
 .card-body {
-    background-color:#e0d5d59e;
+    background-color:#857f7f9e;
       border: 1px solid;
       padding: 70px;
       box-shadow: 2px 2px;
@@ -14,13 +14,9 @@
       text-align: center;
       border-bottom: 2px solid black;
       padding: 5px;
+      background-color: rgb(95, 173, 167);
+      border-radius: 30px;
   }
   
-  .jumbotron{
-      border-radius: 30px;
-      background-color:rgb(148, 148, 97);
-  }
-  button{
-      text-align: center;
-  }
+  
   

@@ -5,26 +5,25 @@
       <div class="card">
           <div class="col-md-12">
               <div class="form">
-                <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
-                  <div class="form-group">
-            
-                      <label for="name">QUOTE</label>
-                      <textarea class="form-control" id="description" rows="4" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required></textarea>
-                      <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-                      </div>
-                  </div><br><br>
-                  <div class="form-group">
-            
-                      <label for="description">AUTHOR</label>
-                      <input type="text" class="form-control" id="name" rows="4"[(ngModel)]="newQuote.name" name="name" #name='ngModel' required>
-                      <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
-                      </div>
-                  </div><br>
-                  <button type="submit" class="btn btn-success">ADD QUOTE</button>
-              </form>
+                   <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+                       <div class="form-group">
+                          <label for="description">QUOTE</label>
+                          <textarea class="form-control" id="description" rows="4" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required></textarea>
+                         <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+                         </div>
+                       </div><br>
+                       <div class="form-group">
+                         <label for="name">AUTHOR</label>
+                         <input type="text" class="form-control" id="name" rows="4"[(ngModel)]="newQuote.name" name="name" #name='ngModel' required>
+                         <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
+                         </div>
+                       </div><br>
+                         <button type="submit" class="btn btn-primary">ADD QUOTE</button><br><br>
+                         <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
+                   </form>
               </div>
           </div>
       </div>
   </div>
-  </div>
+</div>
   
