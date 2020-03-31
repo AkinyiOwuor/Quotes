@@ -4,7 +4,7 @@
 Rachel Akinyi Owuor
 
 ## Description.
-* This website can basically upload quotes and the user can like and dislike the quote or upvote or downvote.
+* This website can basically upload quotes and the user can like,dislike,delete or even add a quote.
 ## Setup Instructions
 * Clone this repo through git clone
 * Extract the file into your preferred location
